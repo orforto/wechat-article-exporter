@@ -1,5 +1,4 @@
 name = "wechat-article-exporter"
+pages_build_output_dir = "dist"
 compatibility_date = "2025-10-30"
 compatibility_flags = ["nodejs_compat"]
-
-# KV binding configured in CF Dashboard
