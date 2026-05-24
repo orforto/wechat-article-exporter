@@ -41,8 +41,8 @@ export default defineNuxtConfig({
     },
     storage: {
       kv: {
-        driver: process.env.NITRO_KV_DRIVER || 'memory',
-        base: process.env.NITRO_KV_BASE,
+        driver: 'cloudflare-kv-binding',
+        binding: 'STORAGE',
       },
     },
   },
